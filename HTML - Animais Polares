@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="PT">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CssPagIni.css" />
+    <title>Animais Polares</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="PagInicial.html">Animais Polares</a>
+        </div>
+
+        <ul>
+            <li><a href="#">Urso Polar</a></li>
+            <li><a href="#">Pinguin</a></li>
+            <li><a href="#">Focas</a></li>
+            <li><a href="#">Beluga</a></li>
+            <li><a href="#">Morsa</a></li>
+        </ul>
+    </nav>
+    <section class="fundo">
+        <div class="texto">    
+                <h1 class="titulo">Animais Polares</h1>
+                <h2 class="sub_titulo">Conheça 5 Espécies de Animais que </br>Vivem No Gelo</h2>
+                <div class="botoes">
+                    <button class="n-orverlay">Saiba Mais</button>
+                    <button class="overlay">Contacte-nos</button>
+                </div>
+        </div>
+    </section>
+</body>
+</html>
