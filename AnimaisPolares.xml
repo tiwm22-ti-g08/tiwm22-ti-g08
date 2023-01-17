@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<element name="polaranimals">
+    <complexType>
+    <sequence>
+        <element maxOccurs="unbounded" ref="polar animals"/>
+    </sequence>
+    </complexType>
+</element>
+<element name="name" type="string"/>
+<simpleType name="polaranimals">
+        <restriction base="token">
+          <element name="urso polar"/>
+          <element name="pinguin"/>
+          <element name="focas"/>
+          <element name="orca"/>
+        </restriction>
+</simpleType>
+<element name="animal">
+    <complexType>
+    <sequence>
+      <element ref="name"/>
+      <element name="porte" type="string"/>
+      <element name="localizacao" type="string"/>
+      <element name="alimentacao" type="string"/>
+      <choice>
+         <element name="food" type="string"/>
+         <element ref="food"/>
+      </choice>
+      <element name="temperament" type="xs:string"/>
+      <element name="weight" type="xs:double"/>
+    </sequence>
+    <attribute name="polaranimals" type="polaranimals"/>
+    </complexType>
+</element>
+</schema>
