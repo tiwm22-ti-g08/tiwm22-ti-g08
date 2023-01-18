@@ -290,4 +290,4 @@ Voltando para a pagina principal tambem se encontra uma âncora nomeando de cont
 
 
 > E Assim chegamos a parete final da criação do nosso web site. Esperamos que esteja todo de acordo com o que o professor deseja, por nossa parde nos gostamos muito de ter feito o trabalho. O Nosso trabalho pode ser encontrado atraves do link
-https://github.com/tiwm22-ti-g08/tiwm22-ti-g08
+https://tiwm22-ti-g08.netlify.app/ 
